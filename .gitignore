@@ -1,9 +1,17 @@
 # ÎÄ¼şºöÂÔ
 .project
 .settings/*
-**/.settings/*
 .classpath
-cas/.classpath
+*.iws
+*.iml
+*.ipr
+*/.springBeans
+*/.settings/*
 .gradle
-build/
-
+*.class
+*.log
+*.gitignore
+*.MF
+*.jar
+.factorypath
+/target/*
