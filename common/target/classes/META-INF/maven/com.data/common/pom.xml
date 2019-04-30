@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!-- service group name -->
+    <artifactId>common</artifactId>
+    <!-- spring boot parent  -->
+	<parent>
+        <artifactId>parent</artifactId>
+        <groupId>com.data</groupId>
+        <version>1.0.1-SNAPSHOT</version>
+        <relativePath>../parent/pom.xml</relativePath>
+    </parent>
+    <!-- 添加依赖 -->
+    <dependencies>
+    	<dependency>
+		    <groupId>com.belerweb</groupId>
+		    <artifactId>pinyin4j</artifactId>
+		    <version>2.5.1</version>
+		</dependency>
+		<dependency>
+		    <groupId>apache-beanutils</groupId>
+		    <artifactId>commons-beanutils</artifactId>
+		    <version>1.7.0</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		<!-- oracle 11 driver depend -->
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc6</artifactId>
+			<version>11.2.0.3</version>
+		</dependency>
+    </dependencies>
+</project>
