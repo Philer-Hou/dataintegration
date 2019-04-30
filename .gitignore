@@ -1,3 +1,9 @@
 # ÎÄ¼şºöÂÔ
+.project
+.settings/*
+**/.settings/*
+.classpath
+cas/.classpath
 .gradle
 build/
+
